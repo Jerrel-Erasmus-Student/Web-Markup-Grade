@@ -1,0 +1,312 @@
+body 
+{
+  margin: 0%;
+  max-width: 1440px;
+  min-height: 3091px;
+  background: #041f2b;
+}
+
+/*Nav menu*/
+header
+{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+nav a 
+{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul
+{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+nav ul a 
+{
+  padding: 0.4rem 0.7rem;
+}
+
+nav ul a:hover
+{
+  background-color: rgb(31, 117, 187);
+  border-radius: 1.5rem;
+}
+nav ul a.active
+{
+  background-color: rgb(31, 117, 187);
+  border-radius: 1.5rem;
+}
+
+
+.btn
+{
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: rgb(19, 148, 196);
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn:hover
+{
+  background-color: rgb(31, 117, 187);
+}
+
+.btn2
+{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 1.5rem;
+  padding: 0.9rem 3rem;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.btn2:hover
+{
+  border-color: rgb(31, 117, 187);
+  color: rgb(31, 117,187);
+}
+
+/*Position and text over image*/
+.info
+{
+  position: relative;
+  margin-top: 0.1rem;
+}
+.info-figure
+{
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+.info-figure img 
+{
+  display: block;     
+  margin: 0;    
+  max-width: 1440px; 
+  height: 965px;
+  filter: brightness(60%);
+  z-index: -1;
+}
+
+h1
+{
+  position: absolute;
+  top: 16%;
+  max-width: 20ch;
+  text-align: center;
+  color: white;
+  left: 20rem;
+  font-size: 75px;
+  z-index: 1;
+}
+em
+{
+  color: rgb(19, 148, 196);
+}
+.info-p
+{
+  position: absolute;
+  top: 53%;
+  color: white;
+  max-width: 69ch;
+  text-align: center;
+  left: 12rem;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.info .cta
+{
+  bottom: 28%;
+  z-index: 1;
+}
+.cta
+{
+  position: absolute;
+  left: 27rem;
+}
+
+
+/*why these route section*/
+.theseroutes 
+{
+ 
+  color: white;
+  padding: 4rem 0;
+  text-align: center; 
+}
+
+.theseroutes h2 {
+  font-size: 2rem;
+  text-align: center; 
+  margin: 0 0 1.5rem 0; 
+}
+
+.theseroutes article
+{
+   display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: left;
+}
+.theseroutes aside
+{
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: left;
+}
+
+.theseroutes article
+{
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-left: 3rem;
+}
+
+.theseroutes aside 
+{
+  text-align: center;
+}
+
+.theseroutes img 
+{
+  width: 100%;
+  max-width: 450px;
+  border-radius: 2rem;
+}
+
+.theseroutes figcaption 
+{
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  color: white;
+}
+
+
+/*Discover route section*/
+.discover 
+{
+  padding: 1rem;
+  text-align: center;
+}
+
+h3 
+{
+  font-size: 40px;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.discover ul 
+{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.discover figure 
+{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  border-radius: 40px;
+  border: 6px solid rgb(19, 148, 196);
+}
+.discover figure:hover
+{
+  border-color: rgb(31, 117, 187);
+}
+
+.discover img
+{
+  height: 100%;
+  filter: brightness(60%);
+  border-radius: 33px;
+}
+
+.discover figcaption
+{
+  position: absolute;
+  bottom: 2%;
+  left: 10%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.route-name 
+{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn3 
+{
+  display: inline-block;
+  color: rgb(19, 148, 196);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.btn3:hover 
+{
+  color: rgb(31, 117, 187);
+}
+
+
+/*Map section area*/
+
+h2 
+{
+   margin-left: 16rem;
+   margin-bottom:0;
+   font-size: 40px;
+   color: white;
+}
+
+.map figure {
+  margin: 5rem;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.map img 
+{
+  width: 934px;
+  height: 622px;
+  border-radius: 9rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.map figcaption 
+{
+  margin-top: 0;         
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.1;
+}

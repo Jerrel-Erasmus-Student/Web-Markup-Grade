@@ -1,0 +1,309 @@
+body 
+{
+  margin: 0%;
+  max-width: 1440px;
+  min-height: 3091px;
+  background: #041f2b;
+}
+
+/*Nav menu*/
+header
+{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+nav a 
+{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul
+{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+
+nav ul a 
+{
+  padding: 0.4rem 0.7rem;
+}
+
+nav ul a:hover
+{
+  background-color: rgb(31, 117, 187);
+  border-radius: 1.5rem;
+}
+nav ul a.active
+{
+  background-color: rgb(31, 117, 187);
+  border-radius: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*front info*/
+.front 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6rem;
+}
+.front .subtitle-above 
+{
+  color: rgb(19, 148, 196);
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+.front h1 
+{
+  font-size: 45px;
+  margin: 0.5rem 0;
+  color: white;
+}
+.front .intro-text 
+{
+  font-size: 25px;
+  color: white;
+}
+.front .stats 
+{
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 2rem 0;
+  border: 2px solid rgb(19, 148, 196);
+  border-radius: 20px;
+  padding: 1rem 10rem;
+}
+.front .stats li 
+{
+  display: flex;
+  color: white;
+}
+.front figure img
+{
+  width: 417px;
+  height: 421px;
+  border-radius: 40px;
+  border: 4px solid rgb(19, 148, 196);
+}
+
+
+
+
+
+
+/*info area*/
+.infos 
+{
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  background: black;
+  padding: 4rem;
+  flex-wrap: wrap;
+}
+.infos article 
+{
+  border: 3px solid rgb(109, 109, 109);
+  border-radius: 20px;
+  padding: 1rem;
+  width: 290px;
+  padding-bottom: 0;
+}
+.infos h2 
+{
+  color: white;
+  font-size: 25px;
+  margin: 0 auto;
+}
+.infos p
+{
+    color: rgb(160, 160, 160);
+    font-size: 18px;
+    margin-top: 3px;
+}
+
+/*map area*/
+.map 
+{
+  padding: 2rem;
+  text-align: center;
+}
+
+.map h2
+{
+    text-align: left;
+    margin-left: 150px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 0;
+}
+.map img 
+{
+  width: 85%;
+  max-height: 446px;
+  border-radius: 80px;
+}
+.map figcaption 
+{
+  margin-top: 0;
+  font-size: 15px;
+  color: white;
+}
+.map-info 
+{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  color: rgb(255, 255, 255) ;
+}
+.map-info article 
+{
+  border: 3px solid rgb(160, 160, 160);
+  border-radius: 20px;
+  padding: 1rem;
+  width: 35%;
+  text-align: left;
+}
+.map h3
+{
+    font-size: 29px;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.map ul
+{
+    margin-top: 3px;
+    font-size: 20px;
+    text-align: left;
+    color: rgb(160, 160, 160);
+    margin-bottom: 0;
+}
+
+
+
+
+.more
+{
+  background-color: black;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;            
+}
+h6 
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 160px;
+}
+.explore
+{
+  margin-left: 500px;
+  border: 1px solid white;
+  border-radius: 1.5rem;
+  padding: 0.9rem 2rem;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  justify-content: right;
+}
+.explore:hover
+{
+    color: rgb(31, 117, 187);
+    border-color: rgb(31, 117, 187);
+}
+.trynext    
+{
+  display: inline-block;
+  padding: 1rem 3rem;
+  background: rgb(19, 148, 196);
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  justify-content: right;
+  font-size: 22px;
+}
+.trynext:hover
+{
+    background-color: rgb(31, 117, 187);
+}
+
+
+
+
+/*FAQs area*/
+.faq
+{
+    margin-left: 200px;
+    padding-top: 3rem;
+}
+.faq h4 
+{
+  color: white;
+  margin-bottom: 5px;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.faq h5
+{
+    font-size: 25px;
+    margin: 0;
+}
+.faq p
+{
+    font-size: 20px;
+    margin: 0;
+}
+.faq article 
+{
+  display: inline-block;
+  border: 3px solid rgb(19, 148, 196);
+  margin: 0.5rem;
+  border-radius: 20px;
+  width: 30rem;
+  padding: 1rem;
+  text-align: left;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
