@@ -162,14 +162,7 @@ em
   margin: 0 0 1.5rem 0; 
 }
 
-.theseroutes article
-{
-   display: inline-block;
-  vertical-align: middle;
-  width: 40%;
-  text-align: left;
-}
-.theseroutes aside
+.theseroutes article,aside
 {
   display: inline-block;
   vertical-align: middle;
@@ -278,16 +271,43 @@ h3
 
 
 /*Map section area*/
+.map
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 h2 
 {
-   margin-left: 16rem;
+   width: 934px;
+   display: flex;
    margin-bottom:0;
    font-size: 40px;
-   color: white;
+   color: white; 
+   justify-content: space-between; 
+   margin-bottom: 0;
 }
 
-.map figure {
+.map a
+{
+  text-decoration: none;
+  color: white;
+  border: 3px solid rgb(160, 160, 160);
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  font-size: 20px;
+  margin-left: 700px;
+}
+
+.map a:hover
+{
+  color: rgb(31, 117, 187);
+  border-color: rgb(31, 117, 187);
+}
+
+.map figure 
+{
   margin: 5rem;
   padding: 0;
   margin-top: 0.5rem;
@@ -306,7 +326,28 @@ h2
 {
   margin-top: 0;         
   font-size: 16px;
-  color: #ffffff;
+  color: white;
   text-align: center;
-  line-height: 1.1;
+}
+
+/*footer*/
+.footer
+{
+  display: flex;
+  color: rgb(160, 160, 160);
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid rgb(160, 160, 160);
+  padding: 1.5rem 3rem;
+  font-size: 25px;
+}
+
+.footer p
+{
+  margin: 0;
+}
+
+.footer .right
+{
+  text-align: right;
 }

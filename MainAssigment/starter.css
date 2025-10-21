@@ -53,19 +53,6 @@ nav ul a.active
   border-radius: 1.5rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*front info*/
 .front 
 {
@@ -115,10 +102,6 @@ nav ul a.active
 }
 
 
-
-
-
-
 /*info area*/
 .infos 
 {
@@ -165,6 +148,23 @@ nav ul a.active
     color: white;
     margin-bottom: 0;
 }
+
+.map a
+{
+  text-decoration: none;
+  color: white;
+  border: 3px solid rgb(160, 160, 160);
+  border-radius: 20px;
+  padding: 0.2rem 1rem;
+  font-size: 20px;
+  margin-left: 900px;
+}
+.map a:hover
+{
+  color: rgb(31, 117, 187);
+  border-color: rgb(31, 117, 187);
+}
+
 .map img 
 {
   width: 85%;
@@ -209,9 +209,6 @@ nav ul a.active
     color: rgb(160, 160, 160);
     margin-bottom: 0;
 }
-
-
-
 
 .more
 {
@@ -267,6 +264,7 @@ h6
 {
     margin-left: 200px;
     padding-top: 3rem;
+    margin-bottom: 3rem;
 }
 .faq h4 
 {
@@ -289,7 +287,7 @@ h6
 .faq article 
 {
   display: inline-block;
-  border: 3px solid rgb(19, 148, 196);
+  border: 3px solid rgb(160, 160, 160);
   margin: 0.5rem;
   border-radius: 20px;
   width: 30rem;
@@ -298,7 +296,27 @@ h6
   color: white;
 }
 
+/*footer*/
+.footer
+{
+  display: flex;
+  color: rgb(160, 160, 160);
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid rgb(160, 160, 160);
+  padding: 1.5rem 3rem;
+  font-size: 25px;
+}
 
+.footer p
+{
+  margin: 0;
+}
+
+.footer .right
+{
+  text-align: right;
+}
 
 
 
