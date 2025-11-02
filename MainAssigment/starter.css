@@ -21,19 +21,18 @@ header
 {
   background-color: black;
   color: white;
-  font-size: 25px;
+  font-size: 1.5rem;
   max-width: 1440px;
   width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
-  position: relax;
 }
 
 .logo
 {
-  height: 75px;
+  height: 4.5rem;
   width: auto;
 }
 
@@ -57,7 +56,7 @@ nav ul
   display: flex;
   padding: 0;
   margin: 0;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 nav ul a 
@@ -92,7 +91,7 @@ nav ul a.active
 }
 .front h1 
 {
-  font-size: 45px;
+  font-size: 2.8rem;
   margin: 0.5rem 0;
   color: white;
 }
@@ -114,7 +113,7 @@ nav ul a.active
   width: fit-content;
   align-items: center;
   list-style: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-left: 5rem;
 }
 .front .stats li 
@@ -147,7 +146,7 @@ nav ul a.active
   width: fit-content;
   align-items: center;
   list-style: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-left: 13rem;
 }
 
@@ -177,7 +176,7 @@ nav ul a.active
 .infos article 
 {
   border: 3px solid rgb(109, 109, 109);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   padding: 1rem;
   width: 290px;
   padding-bottom: 0;
@@ -185,13 +184,13 @@ nav ul a.active
 .infos h2 
 {
   color: white;
-  font-size: 25px;
+  font-size: 1.5rem;
   margin: 0 auto;
 }
 .infos p
 {
     color: rgb(160, 160, 160);
-    font-size: 18px;
+    font-size: 1.1rem;
     margin-top: 3px;
 }
 
@@ -205,8 +204,8 @@ nav ul a.active
 .map h2
 {
     text-align: left;
-    margin-left: 150px;
-    font-size: 40px;
+    margin-left: 9.4rem;
+    font-size: 2.5rem;
     color: white;
     margin-bottom: 0;
 }
@@ -216,10 +215,10 @@ nav ul a.active
   text-decoration: none;
   color: white;
   border: 3px solid rgb(160, 160, 160);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   padding: 0.2rem 1rem;
-  font-size: 20px;
-  margin-left: 900px;
+  font-size: 1.5rem;
+  margin-left: 61.8rem;
 }
 .map a:hover
 {
@@ -231,12 +230,12 @@ nav ul a.active
 {
   width: 85%;
   max-height: 446px;
-  border-radius: 80px;
+  border-radius: 5rem;
 }
 .map figcaption 
 {
   margin-top: 0;
-  font-size: 15px;
+  font-size: 1rem;
   color: white;
 }
 .map-info 
@@ -251,22 +250,22 @@ nav ul a.active
 .map-info article 
 {
   border: 3px solid rgb(160, 160, 160);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   padding: 1rem;
   width: 35%;
   text-align: left;
 }
 .map h3
 {
-    font-size: 29px;
+    font-size: 1.8rem;
     margin: 0;
-    margin-left: 15px;
+    margin-left: 1rem;
 }
 
 .map ul
 {
     margin-top: 3px;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: left;
     color: rgb(160, 160, 160);
     margin-bottom: 0;
@@ -282,19 +281,19 @@ nav ul a.active
 h6 
 {
     color: white;
-    font-size: 30px;
-    margin-left: 160px;
+    font-size: 1.8rem;
+    margin-left: 10rem;
 }
 .explore
 {
-  margin-left: 500px;
+  margin-left: 31.25rem;
   border: 1px solid white;
   border-radius: 1.5rem;
   padding: 0.9rem 2rem;
   background-color: transparent;
   text-decoration: none;
   color: white;
-  font-size: 22px;
+  font-size: 1.4rem;
   justify-content: right;
 }
 .explore:hover
@@ -311,7 +310,7 @@ h6
   border-radius: 1.5rem;
   text-decoration: none;
   justify-content: right;
-  font-size: 22px;
+  font-size: 1.4rem;
 }
 .trynext:hover
 {
@@ -324,26 +323,26 @@ h6
 /*FAQs area*/
 .faq
 {
-    margin-left: 200px;
+    margin-left: 12.5rem;
     padding-top: 3rem;
     margin-bottom: 3rem;
 }
 .faq h4 
 {
   color: white;
-  margin-bottom: 5px;
-  font-size: 30px;
-  margin-left: 10px;
+  margin-bottom: 0.3rem;
+  font-size: 1.8rem;
+  margin-left: 0.6rem;
   margin-top: 0;
 }
 .faq h5
 {
-    font-size: 25px;
+    font-size: 1.5rem;
     margin: 0;
 }
 .faq p
 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
 }
 .faq article 
@@ -351,7 +350,7 @@ h6
   display: inline-block;
   border: 3px solid rgb(160, 160, 160);
   margin: 0.5rem;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   width: 30rem;
   padding: 1rem;
   text-align: left;
@@ -397,7 +396,7 @@ header
 }
 .logo 
 { 
-  height: 56px;
+  height: 3.5rem;
   width: auto;
 }
 nav 
@@ -414,7 +413,7 @@ nav ul
 nav a 
 { 
   padding: .35rem .6rem; 
-  font-size: 22px; 
+  font-size: 1.4rem; 
 }
 .front 
 { 
@@ -424,25 +423,25 @@ nav a
 }
 .front h1 
 { 
-  font-size: 38px;
+  font-size: 2.3rem;
   margin: 0.25rem 0;
 }
 .front .intro-text 
 { 
-  font-size: 20px; 
+  font-size: 1.25rem; 
   margin: 0.25rem 0;
 }
 .front .stats
 {
   padding: .75rem 1.25rem;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-left: 0;
   margin-bottom: 1rem;
 }
 .front .difficulty 
 {
   padding: .75rem 1.25rem;
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-left: 7rem;
   margin-top: 0;
 }
@@ -457,7 +456,7 @@ nav a
 }
 .map img 
 { 
-  border-radius: 48px; 
+  border-radius: 3rem; 
   width: 90%; 
   height: auto; 
 }
@@ -467,7 +466,7 @@ nav a
 }
 .faq
 {
-  margin-left: 15rem;
+  margin-left: 0.9rem;
 }
 .more 
 {
@@ -479,13 +478,13 @@ nav a
 .more h6
 {
   margin: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
   white-space: nowrap;
 }
 .more a
 {
   display: inline-block;
-  font-size: 15px;
+  font-size: 0.9rem;
   padding: 0.75rem 1.5rem;
 }
 .footer 
@@ -518,7 +517,7 @@ header
 }
 .logo 
 {
-  height: 56px;
+  height: 3.5rem;
   margin-left: 1rem;
 }
 header nav 
@@ -534,7 +533,7 @@ nav ul
   flex-direction: column;
   align-items: center;
   gap: .4rem;
-  font-size: 18px;
+  font-size: 1.1rem;
   padding-left: 0;
   margin: 0;
 }
@@ -548,12 +547,12 @@ nav ul
 }
 .front h1 
 {
-  font-size: 34px;
+  font-size: 2.1rem;
 }
 
 .front .intro-text 
 {
-  font-size: 18px;
+  font-size: 1.1rem;
   margin: 0 auto;
   max-width: 36ch;
 }
@@ -563,7 +562,7 @@ nav ul
   margin: 1rem auto 0;
   padding: .75rem 1.25rem;
   gap: 1.25rem;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 .front figure img 
 {
@@ -588,7 +587,7 @@ nav ul
 {
   margin: 0 0 .5rem 0;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.75rem;
   margin-bottom: 1.5rem;
   margin-top: 1rem;
 }
@@ -630,19 +629,19 @@ nav ul
 h6 
 {
   margin: 0;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .explore 
 {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.1rem;
   padding: .7rem 1.4rem;
 }
 
 .trynext 
 {
-  font-size: 18px;
+  font-size: 1.1rem;
   padding: .85rem 1.6rem;
 }
 .faq 
