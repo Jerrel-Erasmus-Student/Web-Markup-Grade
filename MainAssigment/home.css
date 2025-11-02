@@ -3,17 +3,24 @@ html, body
   margin: 0;
   padding: 0;
   background-color: #041f2b;
-  display: flex;
-  justify-content: center;
-  width: 100%;
 }
 
 .page 
 {
   width: 1440px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0 auto;
+}
+header, main, footer
+{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+img, video
+{
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /*Nav menu*/
@@ -21,18 +28,19 @@ header
 {
   background-color: black;
   color: white;
-  font-size: 25px;
+  font-size: 1.5rem;
   max-width: 1440px;
   width: 100%;
   display: flex;
   align-items: center;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
+  position: relative;
 }
 
 .logo
 {
-  height: 75px;
+  height: 4.5rem;
   width: auto;
 }
 
@@ -56,7 +64,7 @@ nav ul
   display: flex;
   padding: 0;
   margin: 0;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 nav ul a 
@@ -84,7 +92,7 @@ nav ul a.active
   color: white;
   border-radius: 1.5rem;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .btn:hover
 {
@@ -100,7 +108,7 @@ nav ul a.active
   background-color: transparent;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .btn2:hover
 {
@@ -125,21 +133,24 @@ nav ul a.active
   display: block;     
   margin: 0;    
   max-width: 1440px; 
-  height: 965px;
+  height: auto;
   filter: brightness(60%);
   z-index: -1;
+  width: 100%;
 }
 
 h1
 {
   position: absolute;
   top: 16%;
+  transform: translateX(-50%);
   max-width: 20ch;
   text-align: center;
   color: white;
   left: 20rem;
-  font-size: 75px;
+  font-size: 4.5rem;
   z-index: 1;
+  margin-left: 25rem;
 }
 em
 {
@@ -148,18 +159,22 @@ em
 .info-p
 {
   position: absolute;
-  top: 53%;
+  top: 54%;
+  transform: translateX(-50%);
   color: white;
-  max-width: 69ch;
   text-align: center;
-  left: 12rem;
-  font-size: 30px;
+  font-size: 1.5rem;
   z-index: 1;
+  margin-left: 45rem;
+  width: 100ch;
 }
 
 .info .cta
 {
+  position: absolute;
+  transform: translateX(-50%);
   bottom: 28%;
+  left: 50%;
   z-index: 1;
 }
 .cta
@@ -182,7 +197,7 @@ em
   font-size: 2rem;
   text-align: center; 
   margin-left: 10rem;
-  font-size: 35px;
+  font-size: 2.2rem;
 }
 
 .theseroutes article,aside
@@ -230,7 +245,7 @@ em
 
 h3 
 {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: white;
   margin-bottom: 3rem;
 }
@@ -240,6 +255,8 @@ h3
   display: flex;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .discover figure 
@@ -247,7 +264,7 @@ h3
   position: relative;
   width: 260px;
   height: 260px;
-  border-radius: 40px;
+  border-radius: 2.5rem;
   border: 6px solid rgb(19, 148, 196);
 }
 .discover figure:hover
@@ -274,16 +291,16 @@ h3
 .route-name 
 {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
 }
-
+  
 .btn3 
 {
   display: inline-block;
   color: rgb(19, 148, 196);
-  font-size: 24px;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
@@ -299,28 +316,19 @@ h3
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 1.5rem;
 }
 
-h2 
-{
-   width: 934px;
-   display: flex;
-   margin-bottom:0;
-   font-size: 40px;
-   color: white; 
-   justify-content: space-between; 
-   margin-bottom: 0;
-}
 
 .map a
 {
   text-decoration: none;
   color: white;
   border: 3px solid rgb(160, 160, 160);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   padding: 0.2rem 1rem;
-  font-size: 20px;
-  margin-left: 700px;
+  font-size: 1.25rem;
+  margin-left: 45rem;
 }
 
 .map a:hover
@@ -336,19 +344,27 @@ h2
   margin-top: 0.5rem;
 }
 
+h2
+{
+  display: flex;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  color: white;
+  justify-content: space-between;
+}
+
 .map img 
 {
   width: 934px;
   height: 622px;
   border-radius: 9rem;
   display: block;
-  margin: 0 auto;
 }
 
 .map figcaption 
 {
   margin-top: 0;         
-  font-size: 16px;
+  font-size: 1rem;
   color: white;
   text-align: center;
 }
@@ -361,9 +377,9 @@ h2
   justify-content: space-between;
   align-items: center;
   border-top: 2px solid rgb(160, 160, 160);
-  padding: 1.5rem 3rem;
-  font-size: 25px;
-  max-width: 1440px;
+  padding: 1.5rem 0rem;
+  font-size: 1.50rem;
+  width: 1440px;
   width: 100%;
   margin: 0 auto;
 }
@@ -371,9 +387,283 @@ h2
 .footer p
 {
   margin: 0;
+  padding-inline: 6rem;
 }
 
-.footer .right
+@media (max-width: 1025px)
 {
-  text-align: right;
+.page
+{
+  width: 100%;
+}
+header
+{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+nav
+{
+  margin-left: 3rem;
+}
+nav ul
+{
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+nav a
+{
+  font-size: 1.3rem;
+}
+.map img
+{
+  border-radius: 4rem;
+}
+.map figure
+{
+  margin: 2.5rem 0;
+}
+.map a
+{
+  margin: 0;
+  margin-left: 40rem;
+}
+.theseroutes h2
+{
+  margin-top: 0;
+  width: 100ch;
+  margin-left: 11rem;
+}
+h1
+{
+  font-size: 50px;
+  width: 90ch;
+  margin: 0;
+  margin-left: 9rem;
+}
+.info-p
+{
+  margin: 0;
+  margin-left: 28.5rem;
+  width: 70ch;
+  font-size: 1.25rem;
+}
+.info .cta
+{
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 15%;
+  left: 57%;
+  z-index: 1;
+}
+.info .btn2
+{
+  margin-top: 1rem;
+  margin-left: 2.6rem;
+}
+
+}
+@media (max-width: 768px)
+{
+header 
+{
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+}
+nav
+{
+  margin-left: 0;
+}
+header nav
+{
+  order: 4;
+  width: 100%;
+  justify-content: center;
+}
+nav ul 
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0;
+  padding: 0.5rem 0 0;
+  margin: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+nav li
+{
+  width: auto;
+}
+nav a
+{
+  display: block;
+  width: 100%;
+}
+.info-figure img
+{
+  max-width: 100%;
+  height: auto;
+}
+h1
+{
+  font-size: 2.1rem;  
+  top: 14%;
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.info-p
+{
+  font-size: 18px;
+  left: 46%;
+  width: 70ch;
+  margin: 0;
+  margin-left: 2rem;
+  top: 49%;
+}
+.info .cta
+{
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 8%;
+  left: 54%;
+  z-index: 1;
+}
+.info .btn2
+{
+  margin-top: 0.5rem;
+  margin-left: 2.6rem;
+}
+.theseroutes article, .theseroutes aside
+{
+  display: block;
+  width: 90%;
+  margin: 0 auto 1rem;
+  text-align: left;
+}
+.theseroutes h2
+{
+  margin-top: 0;
+  font-size: 1.75rem;
+  margin-right: 10rem;
+  text-align: center;
+}
+.theseroutes figcaption
+{
+  text-align: center;
+}
+.theseroutes img
+{
+  margin-left: 2.2rem;
+}
+.discover figure
+{
+  width: 92vw;
+  height: 300px;
+  border-radius: 1.5rem;
+}
+.discover img
+{
+  width: 100%;
+  height: 300px;
+  border-radius: 1.1rem;
+}
+.map
+{
+  padding: 1rem;
+}
+.map a
+{
+  margin: 0;
+  margin-left: 29rem;
+}
+.map img
+{
+  border-radius: 3rem;
+  height: 450px;
+}
+.map figure
+{
+  margin: 1.5rem 0 0;
+}
+.map figcaption
+{
+  font-size: 1rem;
+}
+.footer 
+{
+  padding: 1rem;
+  font-size: 1.1rem;
+  width: 768px
+}
+.footer p 
+{
+  padding-inline-start: 1rem;
+  margin-left: 1rem;
+}
+
+/*mobile hamburger*/
+.hamburger 
+{
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.nav-toggle
+{
+  display: none;
+}
+
+.hamburger span, .hamburger::before, .hamburger::after
+{
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+  height: 3px;
+  background-color: white;
+  transition: transform .25s ease, opacity .25s ease, top .25s ease, bottom .25s ease;
+}
+.hamburger span
+{
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.hamburger::before
+{
+  top: 0.75rem;
+}
+
+.hamburger::after
+{
+  bottom: 0.75rem;
+}
+.nav-toggle:checked + .hamburger span
+{
+  opacity: 0;
+}
+.nav-toggle:checked + .hamburger::before
+{
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.nav-toggle:checked + .hamburger::after
+{
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+.nav-toggle:checked ~ nav ul
+{
+  max-height: 360px;
+}
 }
