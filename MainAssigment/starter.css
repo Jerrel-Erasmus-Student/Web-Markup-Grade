@@ -86,7 +86,7 @@ nav ul a.active
 .front .subtitle-above 
 {
   color: rgb(19, 148, 196);
-  font-size: 20px;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
 }
 .front h1 
@@ -97,7 +97,7 @@ nav ul a.active
 }
 .front .intro-text 
 {
-  font-size: 25px;
+  font-size: 1.5rem;
   color: white;
 }
 .front .stats
@@ -129,7 +129,7 @@ nav ul a.active
 {
   width: 417px;
   height: 421px;
-  border-radius: 40px;
+  border-radius: 2.5rem;
   border: 4px solid rgb(19, 148, 196);
 }
 
@@ -140,7 +140,7 @@ nav ul a.active
   padding: 0;
   margin: 2rem 0;
   border: 2px solid rgb(19, 148, 196);
-  border-radius: 20px;
+  border-radius: 1.25rem;
   padding: 1rem 3rem;
   justify-content: center;
   width: fit-content;
@@ -466,7 +466,7 @@ nav a
 }
 .faq
 {
-  margin-left: 0.9rem;
+  margin-left: 13rem;
 }
 .more 
 {
@@ -566,18 +566,18 @@ nav ul
 }
 .front figure img 
 {
-  width: 80vw;
+  width: 33rem;
   height: auto;
 }
 .infos 
 {
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
   gap: 1rem;
   margin-left: 2.5rem;
 }
 .infos article 
 {
-  width: 92vw;
+  width: 35rem;
 }
 .map 
 {
@@ -616,8 +616,8 @@ nav ul
 }
 .map-info article 
 {
-  width: 92vw;
-  margin-left: 2.5rem;
+  width: 38rem;
+  margin-left: 3rem;
 }
 .more
 {
@@ -626,10 +626,11 @@ nav ul
   align-items: center;
   text-align: center;
 }
-h6 
+.more h6 
 {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1,5rem;
+  margin-left: 3rem;
 }
 
 .explore 
@@ -637,12 +638,14 @@ h6
   margin: 0;
   font-size: 1.1rem;
   padding: .7rem 1.4rem;
+  margin-left: 2rem;
 }
 
 .trynext 
 {
   font-size: 1.1rem;
   padding: .85rem 1.6rem;
+  margin-left: 2rem;
 }
 .faq 
 {
@@ -653,25 +656,25 @@ h6
 .faq h4 
 {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 0 0 .5rem 0;
 }
 .faq article 
 {
-  width: 92vw;
+  width: 38rem;
   margin-left: 2.5rem;
 }
 .footer 
 {
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: 1.1rem;
-  width: 768px;
+  width: 690px;
 }
 .footer p 
 {
   padding-inline-start: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 /*mobile hamburger*/
@@ -703,8 +706,8 @@ h6
 {
   content:"";
   position:absolute;
-  left:10px;
-  right:10px;
+  left: 0.6rem;
+  right: 0.6rem;
   height:3px;
   background:#fff;
   transition:transform .25s ease,opacity .25s ease,top .25s ease,bottom .25s ease;
@@ -716,11 +719,11 @@ h6
 }
 .hamburger::before
 { 
-  top:12px;
+  top: 0.75rem;
 }
 .hamburger::after
 { 
-  bottom:12px;
+  bottom: 0.75rem;
 }
 nav ul
 {
