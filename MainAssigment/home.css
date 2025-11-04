@@ -26,7 +26,7 @@ img, video
 /*Nav menu*/
 header
 {
-  background-color: black;
+  background-color: black;  
   color: white;
   font-size: 1.5rem;
   max-width: 1440px;
@@ -93,6 +93,7 @@ nav ul a.active
   border-radius: 1.5rem;
   text-decoration: none;
   font-size: 1.25rem;
+  letter-spacing: 0.02em;
 }
 .btn:hover
 {
@@ -109,6 +110,7 @@ nav ul a.active
   text-decoration: none;
   color: white;
   font-size: 1.25rem;
+  word-spacing: 0.05em;
 }
 .btn2:hover
 {
@@ -167,6 +169,7 @@ em
   z-index: 1;
   margin-left: 45rem;
   width: 55rem;
+  text-indent: 1.5rem;
 }
 
 .info .cta
@@ -197,7 +200,6 @@ em
   font-size: 2rem;
   text-align: center; 
   margin-left: 10rem;
-  font-size: 2.2rem;
 }
 
 .theseroutes article,aside
@@ -257,6 +259,7 @@ h3
   margin: 0;
   flex-wrap: wrap;
   justify-content: center;
+  list-style: none;
 }
 
 .discover figure 
@@ -265,8 +268,11 @@ h3
   width: 260px;
   height: 260px;
   border-radius: 2.5rem;
-  border: 6px solid rgb(19, 148, 196);
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgb(19, 148, 196);
 }
+
 .discover figure:hover
 {
   border-color: rgb(31, 117, 187);
@@ -369,6 +375,11 @@ h2
   text-align: center;
 }
 
+a:visited 
+{ 
+  opacity: 0.9; 
+}
+
 /*footer*/
 .footer
 {
@@ -390,30 +401,94 @@ h2
   padding-inline: 6rem;
 }
 
+.nav-toggle
+{
+  display: none;
+}
+
+.cookies-banner 
+{
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 9999;
+  background: black;
+  color: white;
+  padding: 1rem;
+}
+
+.cookies-toggle 
+{
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cookies-toggle:checked + .cookies-inner 
+{
+  display: none;
+}
+
+.cookies-actions 
+{
+  margin-top: 0.5rem;
+}
+
+.cookie-link, .cookie-accept 
+{
+  display: inline-block;
+  margin-right: 0.75rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 0.4rem 0.9rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cookie-link:hover, .cookie-accept:hover 
+{
+  border-color: rgb(31,117,187);
+  color: rgb(31,117,187);
+}
+
+.cookies-banner:has(.cookies-toggle:checked) 
+{
+  display: none;
+}
+a:focus-visible, .btn:focus-visible, .btn2:focus-visible, .cookie-accept:focus-visible, .cookie-link:focus-visible, .hamburger:focus-visible, nav a:focus-visible {
+  outline: 2px solid rgb(31,117,187);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
 @media (max-width: 1025px)
 {
-.page
+.page 
 {
-  width: 100%;
+  width: 100%; 
 }
-header
-{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+header 
+{ 
+  padding: 1rem 1.25rem; 
+  gap: .5rem; 
 }
-nav
-{
-  margin-left: 3rem;
+.logo 
+{ 
+  height: 60px; 
 }
-nav ul
-{
-  display: flex;
-  flex-wrap: nowrap;
-  white-space: nowrap;
+nav 
+{ 
+  margin-left: 8rem; 
 }
-nav a
-{
-  font-size: 1.3rem;
+nav ul 
+{ 
+  gap: 0.5rem; 
+}
+nav a 
+{ 
+  padding: .35rem .6rem; 
+  font-size: 1.3rem; 
 }
 .map img
 {
