@@ -1,0 +1,5 @@
+Student name: Jerrel Erasmus
+Student number: 739436
+Student class: IT1B
+GitHub Repository: https://github.com/Jerrel-Erasmus-Student/Web-Markup-Grade
+GitHub Pages URL: https://jerrel-erasmus-student.github.io/Web-Markup-Grade/
