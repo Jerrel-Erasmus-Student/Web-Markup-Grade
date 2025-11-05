@@ -98,8 +98,11 @@ nav ul a.active
   font-size: 1.25rem;
   margin-bottom: 1rem;
 }
-
-.contact h1 
+h1
+{
+  display: none;
+}
+.contact h2
 {
   font-size: 3.1rem;
   color: white;
@@ -151,7 +154,7 @@ nav ul a.active
   text-align: left;
 }
 
-.contact-form h2 
+.contact-form h3
 {
   color: white;
   font-size: 2.5rem;
@@ -280,8 +283,11 @@ a:visited
 {
   opacity: 0.9;
 }
-
-.contact-info h3 
+h4
+{
+  display: none;
+}
+.contact-info h5
 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -296,7 +302,7 @@ a:visited
 
 
 /*run here area*/
-h5
+h6
 {
   color: white;
   text-align: center;

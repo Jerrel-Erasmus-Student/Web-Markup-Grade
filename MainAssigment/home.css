@@ -195,11 +195,15 @@ em
   padding: 4rem 0;
   text-align: center; 
 }
+.h3
+{
+  display: none;
+}
 
 .theseroutes h2 {
   font-size: 2rem;
   text-align: center; 
-  margin-left: 10rem;
+  margin-left: 0rem;
 }
 
 .theseroutes article,aside
@@ -245,7 +249,7 @@ em
   text-align: center;
 }
 
-h3 
+h4
 {
   font-size: 2.5rem;
   color: white;
@@ -350,7 +354,7 @@ h3
   margin-top: 0.5rem;
 }
 
-h4
+h5
 {
   display: flex;
   margin-bottom: 0;
