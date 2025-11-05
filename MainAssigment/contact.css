@@ -265,7 +265,7 @@ button:hover
   gap: 2rem;
   max-width: 1440px;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 3rem 7rem;
   background-color: rgb(25, 25, 25);
 }
 
@@ -273,7 +273,7 @@ button:hover
 .contact-info article 
 {
   color: white;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1.6rem;
   width: 20rem;
   border: 3px solid rgb(109, 109, 109);
@@ -371,7 +371,7 @@ header
 }
 .logo 
 { 
-  height: 60px; 
+  height: 3.5rem; 
 }
 nav 
 { 

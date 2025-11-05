@@ -474,20 +474,24 @@ a:focus-visible, .btn:focus-visible, .btn2:focus-visible, .cookie-accept:focus-v
 }
 header 
 { 
-  padding: 1rem 1.25rem; 
+  padding: 0.75rem 1rem; 
   gap: .5rem; 
 }
 .logo 
 { 
-  height: 60px; 
+  height: 3.5rem;
+  width: auto; 
 }
 nav 
 { 
-  margin-left: 8rem; 
+  margin-left: auto;
 }
 nav ul 
 { 
   gap: 0.5rem; 
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  justify-content: center;
 }
 nav a 
 { 
@@ -511,7 +515,7 @@ nav a
 {
   margin-top: 0;
   width: 55rem;
-  margin-left: 11rem;
+  margin-left: 3rem;
 }
 h1
 {
@@ -546,6 +550,7 @@ h1
 {
 header 
 {
+  position: relative;
   flex-wrap: wrap;
   gap: 0.5rem;
   padding: 0.75rem 1rem;
@@ -553,25 +558,29 @@ header
 nav
 {
   margin-left: 0;
+  width: 100%;
 }
 header nav
 {
   order: 4;
   width: 100%;
+  display: flex;
   justify-content: center;
 }
 nav ul 
 {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  justify-content: flex-start;
+  gap: 0.4rem;
   padding-left: 0;
   padding: 0.5rem 0 0;
   margin: 0;
   max-height: 0;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  padding-block: 0.4rem;
+  width: 100%;
 }
 nav li
 {
@@ -581,6 +590,14 @@ nav a
 {
   display: block;
   width: 100%;
+}
+nav ul a
+{
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  padding: 0.35rem 0.3rem;
+  border-radius: 1.5rem;
 }
 .info-figure img
 {

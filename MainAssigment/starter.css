@@ -437,10 +437,7 @@ nav
 }
 nav ul 
 { 
-  gap: .2rem; 
-  flex-wrap: nowrap;
-  white-space: nowrap;
-  justify-content: center;
+  gap: .5rem;
 }
 nav a 
 { 
@@ -498,14 +495,14 @@ nav a
 }
 .faq
 {
-  margin-left: 13rem;
+  margin-left: 15rem;
 }
 .more 
 {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 2rem 1.5rem;
+  padding: 3rem 1.5rem;
+  flex-wrap: nowrap;
 }
 .more h6
 {
@@ -516,21 +513,13 @@ nav a
 .more a
 {
   display: inline-block;
+  align-items: center;
+  white-space: nowrap;
   font-size: 0.9rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.3rem 0.5rem;
 }
-.footer 
-{
-  padding: 1rem;
-  font-size: 1.1rem;
-  max-width: 1025px;
-}
-.footer p 
-{
-  padding-inline-start: 1rem;
-  margin-left: 9rem;
-  margin-right: 8rem;
-}
+
+
 .nav-toggle
 {
   display: none;
@@ -541,26 +530,26 @@ nav a
 @media (max-width: 768px) 
 {
 header 
-{
+{ 
   position: relative;
   flex-wrap: wrap;
   gap: .5rem;
   padding: .75rem 1rem;
 }
 .logo 
-{
-  height: 3.5rem;
-  margin-left: 1rem;
+{ 
+  height: 3.5rem; 
+  margin-left: 1rem; 
 }
 header nav 
-{
-  order: 4;
-  width: 100%;
-  display: flex;
+{ 
+  order: 4; 
+  width: 100%; 
+  display: flex; 
   justify-content: center;
 }
 nav ul 
-{
+{ 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -569,6 +558,18 @@ nav ul
   padding-left: 0;
   margin: 0;
 }
+nav ul
+{ 
+  padding-block:.4rem; 
+}
+nav ul a
+{
+  display:inline-block;
+  line-height:1;
+  padding:.35rem .6rem;
+  border-radius:1.5rem;
+}
+
 
 .front 
 {
@@ -603,9 +604,8 @@ nav ul
 }
 .infos 
 {
-  padding: 2rem 0rem;
+  padding:2rem 0rem;
   gap: 1rem;
-  margin-left: 2.5rem;
 }
 .infos article 
 {
@@ -613,7 +613,7 @@ nav ul
 }
 .map 
 {
-  padding: 1rem;
+  padding: 1rem;  
 }
 .map h2 
 {
@@ -621,7 +621,7 @@ nav ul
   text-align: center;
   font-size: 1.75rem;
   margin-bottom: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .map a 
 {
@@ -629,6 +629,7 @@ nav ul
   margin-left: 29rem;
   white-space: nowrap;
   justify-content: end;
+  padding: 0.1rem 0.2rem;
 }
 .map figure
 {
@@ -649,7 +650,7 @@ nav ul
 .map-info article 
 {
   width: 38rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 .more
 {
@@ -698,15 +699,14 @@ nav ul
 }
 .footer 
 {
-  padding: 1rem 0;
+  padding: 1rem;
   font-size: 1.1rem;
-  width: 690px;
+  width: 768px;
 }
 .footer p 
 {
   padding-inline-start: 1rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1rem;
 }
 
 /*mobile hamburger*/
@@ -734,6 +734,7 @@ nav ul
   z-index:2;
   display:block;
 }
+
 .hamburger span, .hamburger::before, .hamburger::after
 {
   content:"";
