@@ -274,10 +274,7 @@ h3
     margin-left: 1rem;
     color: white;
 }
-.map-info
-{
-  display: none;
-}
+
 .map ul
 {
     margin-top: 3px;
@@ -294,7 +291,10 @@ h3
   margin-top: 0;
   margin-left: 1rem;
 }
-
+.hidden
+{
+  display: none;
+}
 
 .more
 {

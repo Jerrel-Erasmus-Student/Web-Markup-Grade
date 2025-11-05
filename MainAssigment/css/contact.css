@@ -143,7 +143,7 @@ h1
 /* form section */
 .contact-form 
 {
-  background-image: url("img/formAreaPic.png");
+  background-image: url("../img/formAreaPic.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ button:hover
 .contact-info article 
 {
   color: white;
-  padding: 2rem;
+  padding: 1.2rem;
   border-radius: 1.6rem;
   width: 20rem;
   border: 3px solid rgb(109, 109, 109);
@@ -300,6 +300,10 @@ h4
   margin: 0;
 }
 
+.contact-info ul
+{
+  font-size: 1.25rem;
+}
 
 /*run here area*/
 h6

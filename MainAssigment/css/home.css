@@ -202,8 +202,6 @@ em
 
 .theseroutes h2 {
   font-size: 2rem;
-  text-align: center; 
-  margin-left: 0rem;
 }
 
 .theseroutes article,aside
@@ -645,8 +643,8 @@ h1
 {
   margin-top: 0;
   font-size: 1.75rem;
-  margin-right: 10rem;
-  text-align: center;
+  text-align: left;
+  margin-left: 16rem;
 }
 .theseroutes figcaption
 {
@@ -654,7 +652,7 @@ h1
 }
 .theseroutes img
 {
-  margin-left: 2.2rem;
+  margin-left: 3.2rem;
 }
 .discover figure
 {
